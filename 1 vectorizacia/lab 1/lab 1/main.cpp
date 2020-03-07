@@ -255,6 +255,8 @@ int main() {
 	QueryPerformanceCounter(&finish);
 	delay = (finish.QuadPart - start.QuadPart) * 1000.0f / frequency.QuadPart;
 	cout << "Time with line loops optimization in ms: " << delay << endl;*/
+	
+	
 	system("pause");
 	return 0;
 }
